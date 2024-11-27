@@ -24,4 +24,3 @@ O site **Veterinária Brisa Animal** é uma plataforma interativa desenvolvida p
     |-- servicos.html
     |-- sobre.html
     |-- contato.html
-## Vídeo Demonstrativo
