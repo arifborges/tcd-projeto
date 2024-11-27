@@ -8,6 +8,10 @@ O site **Veterinária Brisa Animal** é uma plataforma interativa desenvolvida p
 - **CSS3**: Estilização e layout.
 - **Git/GitHub**: Controle de versão e compartilhamento do projeto.
 
+### Demonstração do site no link a baixo:
+
+[📹](https://drive.google.com/drive/u/0/home)
+
 ### 📁 Estrutura de Pastas
 ```plaintext
 /projeto
@@ -23,7 +27,3 @@ O site **Veterinária Brisa Animal** é uma plataforma interativa desenvolvida p
     |-- sobre.html
     |-- contato.html
 ## Vídeo Demonstrativo
-
-Você pode assistir ao vídeo de demonstração do projeto no link abaixo:
-
-[📹](https://drive.google.com/drive/u/0/home)
