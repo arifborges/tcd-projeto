@@ -1,0 +1,329 @@
+/* Configurações gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background: #60c9c2;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #48a69a;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.top-bar img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0e5d8;
+}
+
+/* Barra de pesquisa */
+.search-bar {
+    position: relative;
+    margin-top: 10px;
+    width: 50%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 0.9em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background: #555;
+}
+
+/* Introdução */
+.intro {
+    background: linear-gradient(135deg, #60c9c2 40%, #f0e5d8 100%);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro-content .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #48a69a;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #48a69a;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.intro-content .btn:hover {
+    background: #60c9c2;
+    color: #f0e5d8;
+    border-color: #60c9c2;
+}
+
+/* Serviços */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #60c9c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #48a69a;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, border-color 0.3s;
+}
+
+.services .btn:hover {
+    background-color: #f0e5d8;
+    color: #444;
+    border-color: #60c9c2;
+    transform: scale(1.05);
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background: white;
+    padding: 20px;
+    border: 2px solid #48a69a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-color: #60c9c2;
+}
+
+/* Sobre */
+.about {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.about p {
+    text-align: justify;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* Depoimentos */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonial-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+}
+
+/* Call to Action */
+.cta {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+.cta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-color: #999;
+}
+
+.cta h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.cta p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.cta .btn:hover {
+    background: #e0e0e0;
+    color: #000;
+    border-color: #aaa;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background: #48a69a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Formulários */
+.contact-form-container,
+.registration .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2,
+.registration h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea,
+.registration input,
+.registration select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form-container button,
+.registration button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

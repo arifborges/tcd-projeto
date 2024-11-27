@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pet - Veterinária Brisa Animal</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="../img/logo.png" alt="Logotipo Veterinária Brisa Animal" class="logo">
+                <h1>Veterinária Brisa Animal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="registration">
+            <div class="container">
+                <h2>Cadastro de Pet</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="petName">Nome do Pet:</label>
+                        <input type="text" id="petName" name="petName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ownerName">Nome do Tutor:</label>
+                        <input type="text" id="ownerName" name="ownerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petType">Tipo de Pet:</label>
+                        <select id="petType" name="petType" required>
+                            <option value="Cachorro">Cachorro</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="petAge">Idade do Pet:</label>
+                        <input type="number" id="petAge" name="petAge" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petBreed">Raça do Pet:</label>
+                        <input type="text" id="petBreed" name="petBreed" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactInfo">Informações de Contato:</label>
+                        <input type="text" id="contactInfo" name="contactInfo" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Cadastrar Pet</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Veterinária Brisa Animal. Todos os direitos reservados.</p>
+            <p><img src="../img/phone-icon.png" alt="Telefone"> Telefone: (11) 99999-9999</p>
+            <p><img src="../img/email-icon.png" alt="E-mail"> E-mail: contato@brisaanimal.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
